@@ -81,10 +81,10 @@ class ProductManager {
     thumbnail: "https://gmedia.playstation.com/is/image/SIEPDC/days-gone-listing-thumb-01-ps4-us-10jan19?$1600px$",
     
   });
-
-//    console.log(manager.getProducts());
+// encuentra todos los productos
+    console.log(manager.getProducts());
   
-
+//encuentra los productos por id
   const product1 = manager.getProductById(1);
   const product2 = manager.getProductById(2);
   const product3 = manager.getProductById(3);
@@ -93,6 +93,5 @@ class ProductManager {
   console.log(product2);
   console.log(product3);
   
-  
+//el producto id 4 no existe
    const noexistenteProduct = manager.getProductById(4);
-  
